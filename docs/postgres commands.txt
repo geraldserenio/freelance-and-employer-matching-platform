@@ -1,0 +1,1 @@
+open your postgres terminal - docker exec -it postgres psql -U username -d database

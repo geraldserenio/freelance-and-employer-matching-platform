@@ -1,0 +1,43 @@
+Tables:
+
+users = (fields(id, first_name, middle_name, last_name, address, mobile,email, application_role_id,  username, password,due_date, created_at,updated_at)
+
+application = (fields(id, applicate_name), created_at, updated_at))
+
+application_roles = (fields(id, application_role_name), created_at, updated_at))
+
+features = (fields(id, application_id, feature_name, created_at, updated_at))
+
+user_applications = (fields(id, application_id, owned(user_id),created_at, updated_at))
+
+user_features = (fields(id, application_id, feature_id, owned(user_id), created_at, updated_at))
+
+staffs = (fields(id, first_name, middle_name, last_name, address, contact_number, role_id, branch_id, username, password,created_by(user_id) ,created_at,updated_at))
+
+role =(fields(id, role_name, created_by(users_id),created_at, updated_at))
+
+registered_device = (fields(id, staff_id, ip, created_at, updated_at ))
+
+store = (fields(id, store_name, created_by(user_id), created_at, updated_at ))
+
+branch = (fields(id, store_id, branch_name, created_at, updated_at ))
+
+stocks = (fields(id, owned_by(user_id), stock_photo, stock_name, created_at, updated_at )) 
+
+stocks_photos = (fields(id, stock_id, stock_photo, created at, updated_at))
+
+inventory = (fields(id, stock_id, remarks, sku, stock_warning_qty, stock_qty, price,unit, height_mm, width_mm, length_mm, thickness_mm, size, color, created_by(staff_id),created_at, updated_at))
+
+inventory_photos = (fields(id, inventory_id, inventory_photo, created at, updated_at))
+
+transactions = (fields(id, inventory_id, total_amount, transaction_status(in_progress, completed), created_by(staff_id), created_at, updated_at))
+
+transaction_items = (fields(id, transaction_id, inventory_id, qty, price, discounted_amount, created_at, updated_at))
+
+purchase_order = (fields(id, inventory_id, supplier_id, qty, selling_price, production_cost, status(to_be_proccessed, proccessing, completed), completed_by(staff_id(nullable)),created_by(staff_id), created_at, updated_at))
+
+staffs_access (fields(id, features, staff_id, created_at, updated_at))
+
+subscriptions (fields(id, application_id, user_id, month_duration, amount, created_at, updated_at))
+
+suppliers (fields(id, supplier_name,mobile, email, address, created_at, updated_at))

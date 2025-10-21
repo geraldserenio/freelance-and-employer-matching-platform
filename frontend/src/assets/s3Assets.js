@@ -1,0 +1,33 @@
+//signup
+export const signupAd =
+  "https://s3-alpha-sig.figma.com/img/ed7f/1beb/5e5caba45c4a2f4a72555c4f9a977621?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=V3Om6qom~Xhwl8PQUUihln9alNCk9IDMdv5PApeJyGJMO9yqAO0xWUO-A4vXe~7zXmaMJ0ZdDQBlSnMVQwFbMILNdhjAFi1YsMFEdkvPiect5pAbWHzXYwcKUh9J292v0-vHAJIL9PXpRwOB0uPYhhXUR909GTbUsxhJMz3GdrWysF3SoNoIR6nY-Zka3-ZVvXaQXm4XrohWEtTaK31jn1S~-CgciZxT7RbtdnrMaSiOcW7Wsg8yMrPKX8U0ao8JlbDiArizzcQPmycwnQj4dpZ1qiT38B5x8oCxojUpwi2IcVPDdcABh31z7bhSxtUNMpNFrnCv2nGnY8UOcpGsOw__";
+
+//login
+export const googleLogo =
+  "https://s3-alpha-sig.figma.com/img/43ee/c443/e05680c80fcc11d77fe200830d250db5?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JarEq8qufZpbRyvK7GSn9evQ4yumhX0yt7mb~U6RQJz0jz0-cq6dQtSZKv5CjUfuDtbBZ3AczRQSMqY0gDCPOrf4O3lBmmyT-o4DYs5h6FN84a7iLasAjXnHtGGw4JuWZMHGHHouaKcHXSsZCs0taatjcN78BU0NZDaRuXZsHwy~iNbkC--f31kF0Pu~QRz751KDDhjrqO~2NQRhd-Kuqxs~TcsRLLafbu2XWXPtGB738SH-J0IlhR496SAh2ykxXGd4WrZ9qhf7yEI709gCCx1P~3EeiD51hT-AAcD2PO76~rUGctm11k0qgJhn60MPR~r6VGWA9f62AzhzKYq~vA__";
+
+// business Dashboard
+export const dashboardHeadingImg =
+  "https://s3-alpha-sig.figma.com/img/84d2/5317/7b6904b6e4f662ac8f07e7c8ced0cf97?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QiBSw8UFhF-Mq4LX62f~sSIImT-nCihuhga9ZKNp2RhJ6OtNhBUR0cf57O78vSkWGHHjybUOwfcrJTm9xU9L1nwvRtK6XZOtW69O7vRRL1vdxnVydnLw22Hw~cKKtBh5~-iiOkWIMTSAJJxsykdXKFOJrMMTEICuwKYYkAfrFjhzsDl272DpQjfpjyqTpy2Lik~G~UIRL469DcvHcMtQwjL9Dra1r5ESj7uJ6IqfyV8SIV37AkqrRT6XsDE83HI0~hRFUeSfkAAVEf5inVdUp7dtCAxvCe3u4QLI981oQYdehETtAjUGDUa1M2sh9xh3GvWq5VCXxn98lIVpnuGkzw__";
+
+//freelance Dashboard
+export const freelanceDashHeadingImg =
+  "https://s3-alpha-sig.figma.com/img/43a4/465d/2a55294e5ab848e21a1a4db07a91aeb8?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=s3ZXmfypFb7tt3l9ctxAIawgcePMN-vjEY~DmEGiueC2Me0Ua6TBzh2hU5-rXKlXr1wBZNsCYiSMyyDTZoGjcB1h5LFGx0b4Np8JXXCz6bJpFh~OAm8oCz9-3F58RucJ0iYRSVCCEAnceP9mG~VoUeUbBh1E331E~pprOOXo21wMQ9ayp1YBmTM6Hz6dC~KKtOv-oCLcWP1hwVsKc1cyFgHhzTwxrkV0L86cL5WO7iZ0HkFErrLVwK0pZoPxA8HjYDVtqg8-Gj-JaCRYtZqNAWFP9uLEtyGZ5CIsg0xqMCfR2oLdT7AG3ggPryJIjSeczHeaXjWQ9gjFycGYc6lr~Q__";
+
+//workshop page
+export const workShopHeadingImage =
+  "https://s3-alpha-sig.figma.com/img/abf6/b6e2/70924afcf6ecb98b76c88f3520c7ec9c?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=AKbN1c4K6wQR8RZN1XdTFqg3f4itCveCAaPBoN0LrF2QY9Y4KUu9SGbJTYEHlMlXi3pvbTc6~MpjIjpc725NygVfhCPKNnzLv7M9Gm3d5yG9n7gDw0CdwaOqemgCP0tjGOp7kg1~Pu21n7mla1FRoInQdXretLqOcCwmWwnw4~VHbmCKWrouexOcF-5uSOb9dqFJVTJJATHK9XSgYVOWgSaHO5S-G2kXf6EPlyeP3iO4r1eOIcBpICeJEl8HplXqb~IuQxT5hTqM4mehJ-I17TSXmVQB698HasxiS3U8kKHrKHYhFjnta2igFJx5dUgegMwZWK8lwhvYRzNlcwOwLg__";
+
+export const workShopBenefitsImage =
+  "http://localhost:3000/static/media/Workshop1.jpg";
+
+// workshop- programm overview
+
+export const programmeOverviewImg1 =
+  "https://s3-alpha-sig.figma.com/img/cb07/6c83/3b81cb6c534d8ee58caffe590dfb6bd7?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=E4STB7AEjhQ~SAqQrxqwd~PfFzkwdspRUoNpjT~ITubbfeynKed6xwV-VOSnUOO0KUC-ejMWma1wE08dm8eT~fYhmy~tS8zX0a6XU-tB6~HZxCTPpJcHRbJvr2vu3k39BR6tvP2iouTWrFXFAS0vHZ-EG8~A6h7HVOj9Kedr7Oh7cpDf4To21FXpiFAHcQolMdx0Nfymp7x2gpaGuGter311efrt9T8ZDZ3UxLiD1AucrmF2BSwao5vS5WXBahNP5D3omo4odu1KhaKLMpSKoZp4warW6KeBe9rcgLUSdUm~iTvAfI1zy9HrPqx40Ulz4GL77IPy0CzFDLRzsxJAbw__";
+
+export const programmeOverviewImg2 = "";
+
+export const programmeOverviewImg3 = "";
+
+export const programmeOverviewImg4 = "";

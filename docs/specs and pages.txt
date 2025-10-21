@@ -1,0 +1,62 @@
+Users:
+
+Super admin
+Admin
+Staff
+
+Pages:
+Application Roles Management
+	Has access: super user
+	Features: Add, Update, View, Delete, application list
+	Description: As an admin I want to manage a roles for the application that I can create, update, view, delete and can see the list of roles of 	the application in order for me to assign a specific role of the application to the client/user.
+
+Applications Management
+	Has access: super user
+	Features: Add, Update, View, Delete, application list
+
+Features Management
+	Has access: super user
+	Features: Add, Update, View, Delete, Features list
+
+Users Management
+	Has access: super user
+	Features:
+		Add, Update, View, Delete, list for users
+
+Super user management
+	Has access: super user
+	Features:
+		Create, Update, View, Delete, list for users
+		Assigning application to users
+		Assigning features to users
+
+Staffs Management 
+	Has access: Users
+	Features:
+		create, Update, View, Delete, list for staffs
+		assign features to staff
+
+Stocks management
+	Has access: staffs
+	Features:
+		create, Update, View, Delete, list for stocks
+
+Inventory management:
+	Has access: staffs
+	Features:
+		Update, View, Delete, list for inventory
+
+Purchase Order:
+	Has access: staff
+	Features: 
+		Create, Update, Delete, View, Complete, list for inventory
+		Each Item from approved Purchase Order will be reflected to the inventory specifically in that branch
+
+Transaction
+	Has access: staff
+	Features:
+		Create, update, delete, view list for transactions
+	
+	
+
+		

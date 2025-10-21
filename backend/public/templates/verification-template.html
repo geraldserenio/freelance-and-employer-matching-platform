@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verify Your Account</title>
+    <style>
+        .container {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, {{first_name}}!</h2>
+        <p>Thank you for signing up. Please verify your email address to activate your account.</p>
+        <a class="button" href="{{verification_link}}" target="_blank">Verify Your Account</a>
+        <p>If you did not sign up, please ignore this email.</p>
+    </div>
+</body>
+</html>
